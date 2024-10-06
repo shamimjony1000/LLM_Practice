@@ -5,4 +5,4 @@ class llm:
         self.api= api
 
 llm1=llm("Gemini","gemini-pro","aasdasdasdasdsadsadsadasdasdsadasdsa")
-print(llm1.name)
+print(f"We want a {llm1.name} llm model {llm1.model} for chat our own document its api is {llm1.api}")
